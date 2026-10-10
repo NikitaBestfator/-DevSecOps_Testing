@@ -1,0 +1,17 @@
+Команда: .\.venv\Scripts\python.exe -m pytest -q tests/test_student_design.py
+Python: 3.14.2
+Pytest: 9.1.1
+
+Результат: 2 passed, 2 failed
+
+Прошедшие тесты:
+1. test_ordinary_item_before_sell_date — PASSED
+2. test_ordinary_item_after_sell_date — PASSED
+
+Упавшие тесты и причины:
+1. test_conjured_before_sell_date — FAILED. Программа вернула quality=9 вместо 8. Conjured не обрабатывается отдельно.
+2. test_backstage_pass_threshold_10 — FAILED. Программа вернула quality=21 вместо 22. Порог 10 не обрабатывается.
+
+Вывод: Программа не соответствует требованиям для Conjured и Backstage passes. Это подтверждённые дефекты.
+
+Примечание: учебный тест test_foo из tests/test_gilded_rose.py намеренно падает и в отчёт не включён.
