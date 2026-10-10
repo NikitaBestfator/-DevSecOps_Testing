@@ -1,0 +1,18 @@
+==========================================
+ОТЧЁТ О РАБОТЕ СКРИПТА project-helper.sh
+==========================================
+Дата: Sat Sep 19 01:12:32 PM MSK 2026
+Пользователь: nikita
+Имя проекта: Nikita
+Папка проекта: /home/nikita/bash-script-practice/output/Nikita
+
+Созданные файлы:
+/home/nikita/bash-script-practice/output/Nikita/src/main.txt
+/home/nikita/bash-script-practice/output/Nikita/tests/test.txt
+/home/nikita/bash-script-practice/output/Nikita/docs/readme.txt
+
+Структура папок:
+/home/nikita/bash-script-practice/output/Nikita
+/home/nikita/bash-script-practice/output/Nikita/src
+/home/nikita/bash-script-practice/output/Nikita/tests
+/home/nikita/bash-script-practice/output/Nikita/docs
