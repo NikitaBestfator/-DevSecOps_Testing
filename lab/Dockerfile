@@ -29,7 +29,7 @@ RUN groupadd --system appgroup \
     && useradd --system --gid appgroup --create-home --home-dir /home/appuser appuser
 
 WORKDIR /app
-COPY main.py .
+COPY app.py .
 
 # Директория под логи + права для appuser
 RUN mkdir -p /var/log/app \
@@ -45,4 +45,4 @@ EXPOSE 8080
 HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
     CMD curl -fsS http://localhost:8080/health || exit 1
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
