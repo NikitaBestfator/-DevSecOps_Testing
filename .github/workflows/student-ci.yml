@@ -27,4 +27,4 @@ jobs:
         with:
           persist-credentials: false
       - name: Build Docker image
-        run: docker build -f lab/Dockerfile -t devops-student:${{ github.sha }} lab
+        run: docker build -f lab/MissingDockerfile -t devops-student:${{ github.sha }} lab
