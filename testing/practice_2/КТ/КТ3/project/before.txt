@@ -1,0 +1,20 @@
+test_issue_one_microphone (test_start.StartTests.test_issue_one_microphone) ... ok
+test_issue_increments_id (test_student.TestMediaPolka.test_issue_increments_id) ... ok
+test_issue_insufficient_stock (test_student.TestMediaPolka.test_issue_insufficient_stock) ... ok
+test_issue_with_spaces (test_student.TestMediaPolka.test_issue_with_spaces) ... ok
+test_issue_zero_quantity (test_student.TestMediaPolka.test_issue_zero_quantity) ... ok
+test_return_success_and_twice (test_student.TestMediaPolka.test_return_success_and_twice) ... FAIL
+
+======================================================================
+FAIL: test_return_success_and_twice (test_student.TestMediaPolka.test_return_success_and_twice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\IThub-24.3-main\IThub-24.3-main\КТ\КТ3\project\tests\test_student.py", line 87, in test_return_success_and_twice                                                                                     
+    self.assertFalse(ret_res2["ok"], "Повторный возврат не был заблокирован")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false : Повторный возврат не был заблокирован
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.028s
+
+FAILED (failures=1)
